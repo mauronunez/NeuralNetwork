@@ -251,8 +251,8 @@ public class NeuralNetwork extends AbstractClassifier implements Serializable {
         return "Fraction of units to dropout in the hidden layers during training.";
     }
 
-    public int getBatchSize() {
-        return myParams.batchSize;
+    public String getBatchSize() {
+        return String.valueOf( myParams.batchSize);
     }
     public void setBatchSize(int batchSize) {
         myParams.batchSize = batchSize;
