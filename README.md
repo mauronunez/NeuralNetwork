@@ -42,6 +42,15 @@ In Weka, you will find the classifier under classifiers/functions/NeuralNetwork.
 Example code showing classification and regression can be found here:
 https://github.com/amten/NeuralNetwork/tree/master/src/amten/ml/examples
 
+### Maven
+
+Add the following dependency:
+
+        <groupId>cl.inversion.amtem</groupId>
+        <artifactId>NeuralNetwork</artifactId>
+        <version>1.0.0</version>
+
+
 
 ## License
 
